@@ -1,0 +1,368 @@
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:18
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:23
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:29
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:30
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:31
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/EditLeaveInfo.aspx
+异常信息: 不能将值 NULL 插入列 'Name'，表 'RestHomeDB.dbo.LeaveInfo'；列不允许有空值。INSERT 失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 MyRestHomeDAL.LeaveInfoService.ElderLeave(Int32 elderid, DateTime leavetime, String handler, String leavereason) 位置 F:\new2013.3.23\MyRestHomeDAL\LeaveInfoService.cs:行号 262
+   在 MyRestHomeBLL.LeaveInfoManager.ElderLeave(Int32 elderid, DateTime leavetime, String handler, String leavereason) 位置 F:\new2013.3.23\MyRestHomeBLL\LeaveInfoManager.cs:行号 88
+   在 ElderInfoManage_EditLeaveInfo.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 f:\new2013.3.23\MyRestHomeUI\ElderInfoManage\EditLeaveInfo.aspx.cs:行号 77
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:46
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:51
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 19:59:55
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:11
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:16
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:21
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:26
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:31
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:45
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:00:50
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:01:05
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:01:12
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:01:19
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:01:27
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:26:39
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:26:59
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:27:33
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/ShowOutInfo.aspx
+异常信息: 回发或回调参数无效。在配置中使用 <pages enableEventValidation="true"/> 或在页面中使用 <%@ Page EnableEventValidation="true" %> 启用了事件验证。出于安全目的，此功能验证回发或回调事件的参数是否来源于最初呈现这些事件的服务器控件。如果数据有效并且是预期的，则使用 ClientScriptManager.RegisterForEventValidation 方法来注册回发或回调数据以进行验证。
+错误源:System.Web
+堆栈信息:   在 System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   在 System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:32:40
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/ShowHealthFile.aspx
+异常信息: 回发或回调参数无效。在配置中使用 <pages enableEventValidation="true"/> 或在页面中使用 <%@ Page EnableEventValidation="true" %> 启用了事件验证。出于安全目的，此功能验证回发或回调事件的参数是否来源于最初呈现这些事件的服务器控件。如果数据有效并且是预期的，则使用 ClientScriptManager.RegisterForEventValidation 方法来注册回发或回调数据以进行验证。
+错误源:System.Web
+堆栈信息:   在 System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   在 System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:32:42
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/ShowHealthFile.aspx
+异常信息: 回发或回调参数无效。在配置中使用 <pages enableEventValidation="true"/> 或在页面中使用 <%@ Page EnableEventValidation="true" %> 启用了事件验证。出于安全目的，此功能验证回发或回调事件的参数是否来源于最初呈现这些事件的服务器控件。如果数据有效并且是预期的，则使用 ClientScriptManager.RegisterForEventValidation 方法来注册回发或回调数据以进行验证。
+错误源:System.Web
+堆栈信息:   在 System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   在 System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:36:32
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/ShowHealthFile.aspx
+异常信息: 回发或回调参数无效。在配置中使用 <pages enableEventValidation="true"/> 或在页面中使用 <%@ Page EnableEventValidation="true" %> 启用了事件验证。出于安全目的，此功能验证回发或回调事件的参数是否来源于最初呈现这些事件的服务器控件。如果数据有效并且是预期的，则使用 ClientScriptManager.RegisterForEventValidation 方法来注册回发或回调数据以进行验证。
+错误源:System.Web
+堆栈信息:   在 System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   在 System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:43:04
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:43:10
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:43:50
+发生异常页: http://localhost:21576/MyRestHomeUI/Style/Images/bodeycolor.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:45:14
+发生异常页: http://localhost:21576/MyRestHomeUI/Images/ElderPhoto/201212502120116.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:45:16
+发生异常页: http://localhost:21576/MyRestHomeUI/Images/ElderPhoto/201212502120116.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 20:45:19
+发生异常页: http://localhost:21576/MyRestHomeUI/Images/ElderPhoto/201212502120116.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2013-4-23 21:08:20
+发生异常页: http://localhost:21576/MyRestHomeUI/ElderInfoManage/LiveIn.aspx
+异常信息: 输入字符串的格式不正确。
+错误源:mscorlib
+堆栈信息:   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 ElderInfoManage_LiveIn.ddlRoomType_SelectedIndexChanged(Object sender, EventArgs e) 位置 f:\new2013.3.23\MyRestHomeUI\ElderInfoManage\LiveIn.aspx.cs:行号 171
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

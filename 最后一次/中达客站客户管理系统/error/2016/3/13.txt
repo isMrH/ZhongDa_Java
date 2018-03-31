@@ -1,0 +1,15 @@
+用户IP:127.0.0.1
+发生时间:2016/3/13 10:03:16
+发生异常页: http://localhost:5907/中达客站客户管理系统/Login.aspx
+异常信息: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Documents and Settings\Administrator\桌面\40李兰兰3.11下午版版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 C:\Documents and Settings\Administrator\桌面\40李兰兰3.11下午版版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 h:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

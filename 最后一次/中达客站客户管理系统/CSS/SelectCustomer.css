@@ -1,0 +1,44 @@
+*
+{
+   margin:0px auto;	
+   padding:0px;
+}
+
+.content
+{
+	text-align:center;
+	font-size:13px;
+}
+.condition
+{
+	margin-top:10px;
+	font-size:14px;
+}
+#Panel1
+{
+	text-align:center;
+}
+#Image1
+{
+	margin-left:20px;
+}
+#Label2
+{
+	margin-left:5px;
+}
+#ImBtnSelect
+{
+	margin-left:10px;
+}
+#imgbtnAll
+{
+	margin-left:10px;
+}
+#imgbtnAdd
+{
+	margin-left:10px;
+}
+#imgDaochu
+{
+	margin-left:10px;
+}

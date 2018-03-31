@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "中达客站客户管理系统", "中达客站客户管理系统", "{DB1BBF12-ECCC-4708-A5DD-942048153CF1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{1D62D862-91DC-408E-8383-EB402FE7D173}|ZDDB.BLL.dll;{1971D2D6-8742-4DBB-B311-918CC9FD02F4}|ZDDB.DAL.dll;{48BA6CF0-8073-48F2-9A97-A1792CDA8797}|ZDDB.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/中达客站客户管理系统"
+		Debug.AspNetCompiler.PhysicalPath = "中达客站客户管理系统\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\中达客站客户管理系统\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/中达客站客户管理系统"
+		Release.AspNetCompiler.PhysicalPath = "中达客站客户管理系统\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\中达客站客户管理系统\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9069"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZDDB.Model", "ZDDB.Model\ZDDB.Model.csproj", "{48BA6CF0-8073-48F2-9A97-A1792CDA8797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZDDB.DAL", "ZDDB.DAL\ZDDB.DAL.csproj", "{1971D2D6-8742-4DBB-B311-918CC9FD02F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZDDB.BLL", "ZDDB.BLL\ZDDB.BLL.csproj", "{1D62D862-91DC-408E-8383-EB402FE7D173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Debug|.NET.ActiveCfg = Debug|.NET
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Debug|.NET.Build.0 = Debug|.NET
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Release|.NET.ActiveCfg = Debug|.NET
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Release|.NET.Build.0 = Debug|.NET
+		{DB1BBF12-ECCC-4708-A5DD-942048153CF1}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Release|.NET.ActiveCfg = Release|Any CPU
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BA6CF0-8073-48F2-9A97-A1792CDA8797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1971D2D6-8742-4DBB-B311-918CC9FD02F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Release|.NET.ActiveCfg = Release|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D62D862-91DC-408E-8383-EB402FE7D173}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

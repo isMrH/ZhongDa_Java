@@ -1,0 +1,61 @@
+
+/* CSS Document */
+body
+{	
+	
+}
+#Wapper{
+	width:776px;
+	height:411px;
+	background-color:#FFF;
+
+}
+.Title
+{
+	margin-top:5px;
+	width:776px;
+	height:30px;
+	line-height:30px;
+	padding-left:15px;
+	background-image:url(../images/Title.jpg);
+	background-repeat:repeat-y;
+	color:White;
+	font-size:14px;
+	font-weight:bold;
+}
+.Main
+{
+	padding-left:10px;
+	width:758px;
+	height:313px;
+	font-size:12px;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.Grid{
+	margin:5px 0 10px 0;
+	border:solid 1px #c1c1c1;
+}
+.Grid th{
+	padding:4px 2px;
+	color:#FFF;
+	background-color:#549bca;
+	border-left:solid 1px #c1c1c1;
+	font-size:14px;
+}
+.Grid td
+{
+	padding:2px;
+	border:1px solid #c1c1c1;
+	color:#3c3c3c;
+	font-size:12px;
+}	
+fieldset
+{
+	font-size:12px;
+	border:solid 1px #c1c1c1;
+	padding:5px;
+
+}

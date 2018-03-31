@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/HomePage.aspx" title="功能列表"  description="">
+      <siteMapNode url="" title="客户管理"  description="">
+        <siteMapNode url="~/Customers/SelectCustomers.aspx" title="客户查询"  description="" />
+        <siteMapNode url="~/Customers/UpdateOrEditCustomer.aspx" title="客户增删改"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="承运公司管理"  description="">
+        <siteMapNode url="" title="承运公司查询"  description="" />
+        <siteMapNode url="" title="承运公司增删改"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="面单号管理"  description="">
+        <siteMapNode url="" title="面单价格设置"  description="" />
+        <siteMapNode url="" title="面单购入登记"  description="" />
+        <siteMapNode url="" title="面单分配管理"  description="" />
+        <siteMapNode url="" title="面单费用查询"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="运费结算管理"  description="">
+        <siteMapNode url="" title="价格模板管理"  description="" />
+        <siteMapNode url="" title="运费价格设置"  description="" />
+        <siteMapNode url="" title="运费结算管理"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="揽发到付件管理"  description="">
+        <siteMapNode url="" title="揽发到付件增删改"  description="" />
+        <siteMapNode url="" title="揽发到付件查询"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="派收到付件管理"  description="">
+        <siteMapNode url="" title="派收到付件增删改"  description="" />
+        <siteMapNode url="" title="派收到付件查询"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="送货费管理"  description="">
+        <siteMapNode url="" title="送货价格设置"  description="" />
+        <siteMapNode url="" title="送件数管理"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="其他收支管理"  description="">
+        <siteMapNode url="" title="收支增删改"  description="" />
+        <siteMapNode url="" title="收支查询"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="结算报表"  description="">
+        <siteMapNode url="" title="月结算报表"  description="" />
+        <siteMapNode url="" title="费用统计汇总"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="系统管理"  description="">
+        <siteMapNode url="" title="用户管理"  description="" />
+        <siteMapNode url="" title="数据备份恢复"  description="" />
+        <siteMapNode url="" title="个人信息管理"  description="" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

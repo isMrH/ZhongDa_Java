@@ -1,0 +1,372 @@
+﻿用户IP:127.0.0.1
+发生时间:2002-1-9 9:31:08
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/CustomerSendInfo.aspx?cusid=1006
+异常信息: 列“price”不属于表 Table。
+错误源:ZDDB.DAL
+堆栈信息:   在 ZDDB.DAL.FootTableService.GetSelectCustomerSendTBid(Int32 Cid) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\FootTableService.cs:行号 107
+   在 ZDDB.BLL.FootTableManager.GetSelectCustomerSendTBid(Int32 Cid) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\FootTableManager.cs:行号 28
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\CustomerSendInfo.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:33:26
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:33:55
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 无法绑定由多个部分组成的标识符 "customerstb.cusid"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomerPianService.GetAllCustomerPianTBBySql(String strsql) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerPianService.cs:行号 72
+   在 ZDDB.DAL.CustomerPianService.GetAllCustomerPianTBInfo(Int32 cusid) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerPianService.cs:行号 64
+   在 ZDDB.BLL.CustomerPianManager.GetAllCustomerPianTBInfo(Int32 cusid) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerPianManager.cs:行号 39
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:36:07
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:36:29
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 23
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:37:06
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:37:12
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnsel_Click(Object sender, ImageClickEventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 205
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:37:15
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 144
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:37:25
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:38:37
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:45:17
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 9:57:16
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx?cusid=1006
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 FootTable_Info.Page_Load(Object sender, EventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:01:51
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:13:05
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/IssettleInfo.aspx
+异常信息: 输入字符串的格式不正确。
+错误源:mscorlib
+堆栈信息:   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 FootTable_Info.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 g:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\IssettleInfo.aspx.cs:行号 45
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:13:31
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:15:27
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:16:28
+发生异常页: http://localhost:5907/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:21:56
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:23:44
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=sG-XkDstQOHwuN-qKUHzn0VignkE7yNvmuomYK_d-cVZ87K9_PfwHSf6iDGDAZpfIcdpmJ-hdR4ME0sPsiBKp-SOA-Q1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:23:44
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=sG-XkDstQOHwuN-qKUHzn0VignkE7yNvmuomYK_d-cVZ87K9_PfwHSf6iDGDAZpfIcdpmJ-hdR4ME0sPsiBKp-SOA-Q1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:23:57
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=sG-XkDstQOHwuN-qKUHzn0VignkE7yNvmuomYK_d-cVZ87K9_PfwHSf6iDGDAZpfIcdpmJ-hdR4ME0sPsiBKp-SOA-Q1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:23:58
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=sG-XkDstQOHwuN-qKUHzn0VignkE7yNvmuomYK_d-cVZ87K9_PfwHSf6iDGDAZpfIcdpmJ-hdR4ME0sPsiBKp-SOA-Q1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:23:59
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=sG-XkDstQOHwuN-qKUHzn0VignkE7yNvmuomYK_d-cVZ87K9_PfwHSf6iDGDAZpfIcdpmJ-hdR4ME0sPsiBKp-SOA-Q1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:30:58
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:34:58
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:35:53
+发生异常页: http://localhost:4799/中达客站客户管理系统/WebResource.axd?d=p5kwUX_ULg3bb0c3Gj2fnOPStKw5rdCVnTRgy3AkWvwOFnizzhKE-XzvfcrcRcm0j7cYtBR39Vt1uDpEkUEca8QW_QQ1&t=635127852768125000
+异常信息: 这是一个无效的 Webresource 请求。
+错误源:System.Web
+堆栈信息:   在 System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:36:02
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnadd_Click(Object sender, ImageClickEventArgs e) 位置 h:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 86
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:36:05
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnadd_Click(Object sender, ImageClickEventArgs e) 位置 h:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 86
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2002-1-9 10:36:08
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnadd_Click(Object sender, ImageClickEventArgs e) 位置 h:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 86
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

@@ -1,0 +1,45 @@
+*
+{
+   margin:0px auto;	
+   padding:0px;
+}
+.wrapper
+{
+	width:780px;
+	height:500px;
+	background-color:#f7f7f7;
+}
+.content
+{
+	text-align:center;
+	font-size:13px;
+}
+.condition
+{
+	margin-top:10px;
+	font-size:14px;
+}
+#Image1
+{
+	margin-left:50px;
+}
+#lblMan
+{
+	margin-left:10px;
+}
+#ImBtnSelect
+{
+	margin-left:10px;
+}
+#imgbtnAll
+{
+	margin-left:10px;
+}
+#imgbtnAdd
+{
+	margin-left:10px;
+}
+#imgDaochu
+{
+	margin-left:10px;
+}

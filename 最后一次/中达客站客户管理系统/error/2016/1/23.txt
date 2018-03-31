@@ -1,0 +1,122 @@
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:33:11
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:34:19
+发生异常页: http://localhost:8763/中达客站客户管理系统/FaxeList/RegisterTB.aspx
+异常信息: 将截断字符串或二进制数据。
+语句已终止。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.RegisterService.InsertRegister(RegisterTB reg) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\RegisterService.cs:行号 99
+   在 ZDDB.BLL.RegisterManager.InsertRegister(RegisterTB reg) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\RegisterManager.cs:行号 18
+   在 FaxeList_RegisterTB.TmgBtnExit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\FaxeList\RegisterTB.aspx.cs:行号 70
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:34:51
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/UpdateOrEditCustomer.aspx?Cusid=1012
+异常信息: 将截断字符串或二进制数据。
+语句已终止。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomersService.UpdateCustomerByCusId(Int32 Cusid, CustomersTB cus) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 52
+   在 ZDDB.BLL.CustomersManager.UpdateCustomerByCusId(Int32 Cusid, CustomersTB cus) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 36
+   在 Customers_UpdateOrEditCustomer.ImgBtnQd_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\UpdateOrEditCustomer.aspx.cs:行号 92
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:37:26
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:38:56
+发生异常页: http://localhost:8763/中达客站客户管理系统/FaxeList/RegisterTB.aspx
+异常信息: 将截断字符串或二进制数据。
+语句已终止。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.RegisterService.InsertRegister(RegisterTB reg) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\RegisterService.cs:行号 99
+   在 ZDDB.BLL.RegisterManager.InsertRegister(RegisterTB reg) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\RegisterManager.cs:行号 18
+   在 FaxeList_RegisterTB.TmgBtnExit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\FaxeList\RegisterTB.aspx.cs:行号 70
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:43:12
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 16:56:23
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 17:19:33
+发生异常页: http://localhost:8763/中达客站客户管理系统/FaxeList/RegisterTB.aspx?Rid=5
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.RegisterService.GetAllRegisterTBByRid(Int64 Rid) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\RegisterService.cs:行号 107
+   在 ZDDB.BLL.RegisterManager.GetAllRegisterTBByRid(Int64 Rid) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\RegisterManager.cs:行号 39
+   在 FaxeList_RegisterTB.Page_Load(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\FaxeList\RegisterTB.aspx.cs:行号 34
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/23 17:55:11
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------

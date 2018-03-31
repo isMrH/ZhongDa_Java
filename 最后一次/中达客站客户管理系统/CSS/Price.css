@@ -1,0 +1,83 @@
+*
+{
+   margin:0px auto;	
+   padding:0px;
+}
+.title
+{
+	margin-top:5px;
+	height:23px;
+	width:760px;
+	background-color:#f7f7f7;
+	border:1px solid #e0dede;
+	font-size:14px;
+	padding-top:5px;
+	padding-left:4px;
+}
+.Search
+{
+    width:752px;
+    height:20px;
+    margin-top:10px;
+    font-size:14px;
+}
+#Label1
+{
+	padding-left:0px;
+	padding-top:0px;
+}
+.condition
+{
+	margin-top:5px;
+    width:767px;
+    height:30px;
+    font-size:13px;	
+   
+}
+#lblPno
+{
+	
+}
+#lblDestination
+{
+	padding-left:3px;
+}
+#LblKilo
+{
+	padding-left:3px;
+}
+#lblPrice
+{
+	padding-left:3px;
+}
+
+.Setup
+{
+	width:752px;
+	height:25px;
+	font-size:13px;
+}
+#imgExecl
+{
+	padding-left:18px;
+	padding-top:8px;
+}
+#lkbtnExecl
+{
+	padding-left:2px;
+
+}
+.content
+{
+	padding-top:10px;
+	width:680px;
+    text-align:center;
+}
+#imgbtnSearch
+{
+	margin-left:10px;
+}
+#imgbtnAll
+{
+	 margin-left:10px;
+}

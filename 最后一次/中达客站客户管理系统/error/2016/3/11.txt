@@ -1,0 +1,286 @@
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:11:28
+发生异常页: http://localhost:5907/中达客站客户管理系统/Administrator/DataManager.aspx
+异常信息: 未能找到文件“F:\40李兰兰3.11版\最后一次\中达客站客户管理系统\Administrator\ProgressBar.htm”。
+错误源:App_Web_rur4-yxg
+堆栈信息:   在 Administrator_DataManager.imgBtnCopy_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\Administrator\DataManager.aspx.cs:行号 127
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:33:23
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnsel_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 152
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:44:36
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:49:33
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.CustomerSentService.GetCustomerSentTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 109
+   在 ZDDB.BLL.CustomerSentManager.GetCustomerSentTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 35
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 161
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:52:45
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:54:41
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:55:46
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:55:49
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnsel_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 210
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:55:59
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:56:08
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnsel_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 210
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:57:03
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 9:57:43
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 149
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 10:15:02
+发生异常页: http://localhost:5907/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 238
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnadd_Click(Object sender, ImageClickEventArgs e) 位置 f:\40李兰兰3.11版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 87
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 11:44:49
+发生异常页: http://localhost:5907/中达客站客户管理系统/Login.aspx
+异常信息: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\40李兰兰3.11版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 11:44:50
+发生异常页: http://localhost:5907/中达客站客户管理系统/Login.aspx
+异常信息: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\40李兰兰3.11版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-11 11:45:32
+发生异常页: http://localhost:5907/中达客站客户管理系统/Login.aspx
+异常信息: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\40李兰兰3.11版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\40李兰兰3.11版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

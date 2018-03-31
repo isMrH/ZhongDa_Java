@@ -1,0 +1,79 @@
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+     }
+
+     #header
+     {
+        width: 760px;
+        height: 26px;
+        line-height: 26px;
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+        border:1px solid #e0dede;
+        position: relative;
+		left: 10px;
+        margin-bottom:30px;
+      }
+     #search
+     {
+     	width: 748px;
+     	height:20px;
+     	font-size:14px;
+     	margin:0 auto;
+     	}
+     #search1
+     {
+     	width: 764px;
+     	height:25px;
+     	 margin-top:5px;
+     	font-size:13px;
+     	position: relative;
+		
+	top: 0px;
+	left: 0px;
+}
+     #center
+     {
+		height: 350px;
+		line-height:20px;
+		margin:0px auto;
+		font-size: 12px;
+		color: #5d5d5d;
+		
+     	}
+     #search2
+     {
+		width: 741px;
+     	height:212px;
+     	margin-top:20px;
+     	text-align:center;
+     	}
+     #lbl
+     {
+     	position: relative;
+     	top:3px;
+     	}
+     tr{ background-color:White; font-size:12px;}
+     #search3
+     {
+     	margin-top:5px;
+     }
+     #imgDaochu
+     {
+     	margin-left:10px;
+     }
+     #ImageButton2
+     {
+     	 margin-left:10px;
+     }
+     #ImageButton1
+     {
+     	margin-left:20px;
+     }
+     #ImgbtnExit
+     {
+     	margin-left:20px;
+     }

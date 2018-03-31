@@ -1,0 +1,518 @@
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:27:52
+发生异常页: http://localhost:8763/中达客站客户管理系统/Login.aspx
+异常信息: 用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:28:58
+发生异常页: http://localhost:8763/中达客站客户管理系统/Login.aspx
+异常信息: 用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:29:23
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:29:49
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:53:17
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 9:53:22
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/UpdateOrEditCustomer.aspx?Cusid=1001
+异常信息: c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\UpdateOrEditCustomer.aspx.cs(36): error CS0103: 当前上下文中不存在名称“cbIsCounterman”
+错误源:System.Web
+堆栈信息:   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:09:49
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:10:31
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:22:53
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:27:09
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:36:56
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/UpdateOrEditCustomer.aspx
+异常信息: 仅当使用了列列表并且 IDENTITY_INSERT 为 ON 时，才能为表'CustomersTB'中的标识列指定显式值。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomersService.InsertCustomer(CustomersTB cus) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomersService.cs:行号 109
+   在 ZDDB.BLL.CustomersManager.InsertCustomer(CustomersTB cus) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomersManager.cs:行号 33
+   在 Customers_UpdateOrEditCustomer.ImgBtnQd_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\UpdateOrEditCustomer.aspx.cs:行号 79
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:39:08
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/UpdateOrEditCustomer.aspx
+异常信息: 仅当使用了列列表并且 IDENTITY_INSERT 为 ON 时，才能为表'CustomersTB'中的标识列指定显式值。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomersService.InsertCustomer(CustomersTB cus) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomersService.cs:行号 109
+   在 ZDDB.BLL.CustomersManager.InsertCustomer(CustomersTB cus) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomersManager.cs:行号 33
+   在 Customers_UpdateOrEditCustomer.ImgBtnQd_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\UpdateOrEditCustomer.aspx.cs:行号 79
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 10:40:10
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/UpdateOrEditCustomer.aspx
+异常信息: 仅当使用了列列表并且 IDENTITY_INSERT 为 ON 时，才能为表'CustomersTB'中的标识列指定显式值。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomersService.InsertCustomer(CustomersTB cus) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomersService.cs:行号 109
+   在 ZDDB.BLL.CustomersManager.InsertCustomer(CustomersTB cus) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomersManager.cs:行号 33
+   在 Customers_UpdateOrEditCustomer.ImgBtnQd_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\UpdateOrEditCustomer.aspx.cs:行号 79
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:30:56
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs(76): error CS1061: “ZDDB.BLL.CustomersManager”不包含“SelectCustomers”的定义，并且找不到可接受类型为“ZDDB.BLL.CustomersManager”的第一个参数的扩展方法“SelectCustomers”(是否缺少 using 指令或程序集引用?)
+错误源:System.Web
+堆栈信息:   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:40:32
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: 必须声明标量变量 "@CusName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomersService.GetCustomersBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 46
+   在 ZDDB.DAL.CustomersService.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 32
+   在 ZDDB.BLL.CustomersManager.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 22
+   在 Customers_SelectCustomers.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 76
+   在 Customers_SelectCustomers.ImBtnSelect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 81
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:40:40
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: 必须声明标量变量 "@CusName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomersService.GetCustomersBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 46
+   在 ZDDB.DAL.CustomersService.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 32
+   在 ZDDB.BLL.CustomersManager.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 22
+   在 Customers_SelectCustomers.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 76
+   在 Customers_SelectCustomers.ImBtnSelect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 81
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:55:19
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: 必须声明标量变量 "@CusName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomersService.GetCustomersBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 46
+   在 ZDDB.DAL.CustomersService.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 32
+   在 ZDDB.BLL.CustomersManager.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 22
+   在 Customers_SelectCustomers.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 76
+   在 Customers_SelectCustomers.gvCustomers_PageIndexChanging(Object sender, GridViewPageEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 96
+   在 System.Web.UI.WebControls.GridView.OnPageIndexChanging(GridViewPageEventArgs e)
+   在 System.Web.UI.WebControls.GridView.HandlePage(Int32 newPage)
+   在 System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   在 System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:55:24
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: 必须声明标量变量 "@CusName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomersService.GetCustomersBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 46
+   在 ZDDB.DAL.CustomersService.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 32
+   在 ZDDB.BLL.CustomersManager.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 22
+   在 Customers_SelectCustomers.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 76
+   在 Customers_SelectCustomers.gvCustomers_PageIndexChanging(Object sender, GridViewPageEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 96
+   在 System.Web.UI.WebControls.GridView.OnPageIndexChanging(GridViewPageEventArgs e)
+   在 System.Web.UI.WebControls.GridView.HandlePage(Int32 newPage)
+   在 System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   在 System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 11:56:30
+发生异常页: http://localhost:8763/中达客站客户管理系统/Customers/SelectCustomers.aspx
+异常信息: 必须声明标量变量 "@CusName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CustomersService.GetCustomersBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 46
+   在 ZDDB.DAL.CustomersService.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CustomersService.cs:行号 32
+   在 ZDDB.BLL.CustomersManager.SelectCustomers(String CName, Int32 IsCounterman) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CustomersManager.cs:行号 22
+   在 Customers_SelectCustomers.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 76
+   在 Customers_SelectCustomers.ImBtnSelect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\Customers\SelectCustomers.aspx.cs:行号 81
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 14:52:52
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 14:57:42
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 15:03:52
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 15:05:59
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 15:07:44
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 15:24:40
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 16:38:05
+发生异常页: http://localhost:8763/中达客站客户管理系统/CarrieCompany/SelectCarrieCompany.aspx
+异常信息: 必须声明标量变量 "@CoName"。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.GetTable(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\DBHelper.cs:行号 74
+   在 ZDDB.DAL.CarrieCompanyService.GetCarrieCompanyBySql(String strsql) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CarrieCompanyService.cs:行号 44
+   在 ZDDB.DAL.CarrieCompanyService.SelectCarrieCompany(String CoName, String Man) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.DAL\CarrieCompanyService.cs:行号 31
+   在 ZDDB.BLL.CarrieCompanyManager.SelectCarrieCompany(String CoName, String Man) 位置 C:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\ZDDB.BLL\CarrieCompanyManager.cs:行号 22
+   在 CarrieCompany_CarrieCompanyRegister.Select() 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\CarrieCompany\SelectCarrieCompany.aspx.cs:行号 88
+   在 CarrieCompany_CarrieCompanyRegister.ImBtnSelect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\CarrieCompany\SelectCarrieCompany.aspx.cs:行号 93
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:18:25
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:20:10
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:21:13
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:43:32
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:47:04
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:49:01
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:57:10
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:57:22
+发生异常页: http://localhost:8763/中达客站客户管理系统/CarrieCompany/SelectCarrieCompany.aspx
+异常信息: c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\CarrieCompany\SelectCarrieCompany.aspx(44): error CS1061: “ASP.carriecompany_selectcarriecompany_aspx”不包含“gvCarrieCompany_SelectedIndexChanged1”的定义，并且找不到可接受类型为“ASP.carriecompany_selectcarriecompany_aspx”的第一个参数的扩展方法“gvCarrieCompany_SelectedIndexChanged1”(是否缺少 using 指令或程序集引用?)
+错误源:System.Web
+堆栈信息:   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:57:24
+发生异常页: http://localhost:8763/中达客站客户管理系统/CarrieCompany/SelectCarrieCompany.aspx
+异常信息: c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\CarrieCompany\SelectCarrieCompany.aspx(44): error CS1061: “ASP.carriecompany_selectcarriecompany_aspx”不包含“gvCarrieCompany_SelectedIndexChanged1”的定义，并且找不到可接受类型为“ASP.carriecompany_selectcarriecompany_aspx”的第一个参数的扩展方法“gvCarrieCompany_SelectedIndexChanged1”(是否缺少 using 指令或程序集引用?)
+错误源:System.Web
+堆栈信息:   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:57:26
+发生异常页: http://localhost:8763/中达客站客户管理系统/CarrieCompany/SelectCarrieCompany.aspx
+异常信息: c:\Users\Administrator\Desktop\李兰兰\作业\第三学期\实训\最后一次\中达客站客户管理系统\CarrieCompany\SelectCarrieCompany.aspx(44): error CS1061: “ASP.carriecompany_selectcarriecompany_aspx”不包含“gvCarrieCompany_SelectedIndexChanged1”的定义，并且找不到可接受类型为“ASP.carriecompany_selectcarriecompany_aspx”的第一个参数的扩展方法“gvCarrieCompany_SelectedIndexChanged1”(是否缺少 using 指令或程序集引用?)
+错误源:System.Web
+堆栈信息:   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 17:59:24
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/1/20 19:50:08
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------

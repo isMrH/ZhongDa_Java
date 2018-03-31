@@ -1,0 +1,305 @@
+用户IP:127.0.0.1
+发生时间:2016-1-15 7:55:20
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 7:58:48
+发生异常页: http://localhost:8763/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=2
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\答辩\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 7:59:04
+发生异常页: http://localhost:8763/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=4
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\答辩\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 7:59:35
+发生异常页: http://localhost:8763/中达客站客户管理系统/FaxeList/DisNoteTB.aspx?rid=1900879699134
+异常信息: INSERT 语句与 FOREIGN KEY 约束"FK__DisNoteTB__CusID__09DE7BCC"冲突。该冲突发生于数据库"ZDDB"，表"dbo.CustomersTB", column 'CusID'。
+语句已终止。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DisNoteService.InsertDisNoteTB(DisNoteTB Disnote) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DisNoteService.cs:行号 45
+   在 ZDDB.BLL.DisNoteManager.InsertDisNoteTB(DisNoteTB Disnote) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\DisNoteManager.cs:行号 29
+   在 FaxeList_DisNoteTB.TmgBtnExit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\答辩\最后一次\中达客站客户管理系统\FaxeList\DisNoteTB.aspx.cs:行号 144
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 8:01:06
+发生异常页: http://localhost:8763/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=11
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\答辩\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 8:03:28
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 8:11:26
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 9:56:53
+发生异常页: http://localhost:8763/中达客站客户管理系统/Login.aspx
+异常信息: 无法打开登录所请求的数据库 "ZDDB"。登录失败。
+用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 9:59:39
+发生异常页: http://localhost:1908/中达客站客户管理系统/Login.aspx
+异常信息: 无法打开登录所请求的数据库 "ZDDB"。登录失败。
+用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:00:05
+发生异常页: http://localhost:1908/中达客站客户管理系统/Login.aspx
+异常信息: 无法打开登录所请求的数据库 "ZDDB"。登录失败。
+用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:01:44
+发生异常页: http://localhost:8763/中达客站客户管理系统/Login.aspx
+异常信息: 无法打开登录所请求的数据库 "ZDDB"。登录失败。
+用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.btnLogin_Click(Object sender, EventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 31
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:04:21
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:06:23
+发生异常页: http://localhost:8763/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DisNoteService.cs:行号 230
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\DisNoteManager.cs:行号 53
+   在 FootTable_FootInfo.imgbtnadd_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 59
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:06:35
+发生异常页: http://localhost:8763/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DisNoteService.cs:行号 230
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\DisNoteManager.cs:行号 53
+   在 FootTable_FootInfo.imgbtnsel_Click(Object sender, ImageClickEventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 122
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:11:23
+发生异常页: http://localhost:8763/中达客站客户管理系统/Administrator/CSS/Registers.css
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:11:30
+发生异常页: http://localhost:8763/中达客站客户管理系统/Administrator/CSS/Registers.css
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:11:31
+发生异常页: http://localhost:8763/中达客站客户管理系统/Administrator/CSS/Registers.css
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:12:27
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:12:27
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:13:39
+发生异常页: http://localhost:8763/中达客站客户管理系统/Administrator/CSS/Registers.css
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:22:56
+发生异常页: http://localhost:8763/中达客站客户管理系统/Images/leftBg.jpg
+异常信息: 文件不存在。
+错误源:System.Web
+堆栈信息:   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-1-15 10:23:01
+发生异常页: http://localhost:8763/中达客站客户管理系统/AcceptandSent/Sent.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBByIds(String cid) 位置 C:\Users\Administrator\Desktop\最后一次\ZDDB.DAL\DisNoteService.cs:行号 237
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBByIds(String cid) 位置 F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.BLL\DisNoteManager.cs:行号 64
+   在 Sent.txtNumbers_TextChanged(Object sender, EventArgs e) 位置 c:\Documents and Settings\Administrator\桌面\14软件班三组\最后一次\中达客站客户管理系统\AcceptandSent\Sent.aspx.cs:行号 107
+   在 System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   在 System.Web.UI.WebControls.TextBox.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.TextBox.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

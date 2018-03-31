@@ -1,0 +1,144 @@
+用户IP:127.0.0.1
+发生时间:2016/3/14 18:43:56
+发生异常页: http://localhost:4799/中达客站客户管理系统/Login.aspx
+异常信息: 在向服务器发送请求时发生传输级错误。 (provider: 共享内存提供程序, error: 0 - 管道的另一端上无任何进程。)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 18:51:03
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 144
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 18:56:35
+发生异常页: http://localhost:4799/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=1
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 18:56:49
+发生异常页: http://localhost:4799/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=2
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 18:58:33
+发生异常页: http://localhost:4799/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=1
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 19:00:46
+发生异常页: http://localhost:4799/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=1
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 19:01:28
+发生异常页: http://localhost:4799/中达客站客户管理系统/PriceManager/CarriageMoney/AddCustomerSent.aspx?csid=1
+异常信息: ')' 附近有语法错误。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.DBHelper.ExecuteCommand(String strsql, SqlParameter[] paras) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\DBHelper.cs:行号 55
+   在 ZDDB.DAL.CustomerSentService.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.DAL\CustomerSentService.cs:行号 86
+   在 ZDDB.BLL.CustomerSentManager.UpdateInfo(CustomerSentTB cst) 位置 G:\Asp.net\ASP.NET\最新版本\黄超3.14版\最后一次\ZDDB.BLL\CustomerSentManager.cs:行号 31
+   在 PriceManager_CarriageMoney_AddCustomerSent.imgbtnSubmit_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\PriceManager\CarriageMoney\AddCustomerSent.aspx.cs:行号 175
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 19:07:20
+发生异常页: http://localhost:4799/中达客站客户管理系统/Login.aspx
+异常信息: 在向服务器发送请求时发生传输级错误。 (provider: 共享内存提供程序, error: 0 - 管道的另一端上无任何进程。)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/14 19:08:57
+发生异常页: http://localhost:4799/中达客站客户管理系统/Login.aspx
+异常信息: 在向服务器发送请求时发生传输级错误。 (provider: 共享内存提供程序, error: 0 - 管道的另一端上无任何进程。)
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 ZDDB.DAL.UserInfoService.GetSelectUserByLoginid(String UserName) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.DAL\UserInfoService.cs:行号 44
+   在 ZDDB.BLL.UserInfoManager.Register(String userName, String Pwd, UserInfoTB& UserInfo) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.BLL\UserInfoManager.cs:行号 17
+   在 _Default.ImageButton1_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\中达客站客户管理系统\Login.aspx.cs:行号 35
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

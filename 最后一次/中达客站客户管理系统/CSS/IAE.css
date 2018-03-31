@@ -1,0 +1,57 @@
+*
+{
+   margin:0px auto;	
+   padding:0px;
+}
+.title
+{
+	margin-top:5px;
+	height:23px;
+	width:760px;
+	background-color:#f7f7f7;
+	border:1px solid #e0dede;
+	font-size:14px;
+	padding-top:5px;
+	padding-left:4px;
+}
+.Search
+{
+    width:629px;
+    height:20px;
+    margin-top:10px;
+    font-size:13px;
+}
+#Label1
+{
+	padding-left:5px;
+	padding-top:0px;
+}
+.content
+{
+	width:651px;
+	text-align:center;
+	font-size:13px;
+	margin-top:10px;
+	height: 262px;
+}
+#lblName
+{
+	margin-left:10px;
+}
+#Search1
+{
+	margin-top:10px;
+}
+#imgbtnSelect
+{
+	margin-left:400px;
+}
+#imgbtnSelectall
+{
+	margin-left:10px;
+}
+#ImageButton3
+{
+	margin-left:10px;
+}
+

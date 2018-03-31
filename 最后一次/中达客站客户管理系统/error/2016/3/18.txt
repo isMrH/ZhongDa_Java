@@ -1,0 +1,30 @@
+用户IP:127.0.0.1
+发生时间:2016-3-18 7:58:44
+发生异常页: http://localhost:9069/中达客站客户管理系统/Administrator/DataManager.aspx
+异常信息: 备份集中的数据库备份与现有的 'ZDDB' 数据库不同。
+RESTORE DATABASE 正在异常终止。
+已将数据库上下文更改为 'master'。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 Administrator_DataManager.imgBtnReset_Click(Object sender, ImageClickEventArgs e) 位置 f:\中达货站后台管理系统之新版\最后一次\中达客站客户管理系统\Administrator\DataManager.aspx.cs:行号 213
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016-3-18 8:07:36
+发生异常页: http://localhost:9069/中达客站客户管理系统/Administrator/DataManager.aspx
+异常信息: 备份集中的数据库备份与现有的 'ZDDB' 数据库不同。
+RESTORE DATABASE 正在异常终止。
+已将数据库上下文更改为 'master'。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 Administrator_DataManager.imgBtnReset_Click(Object sender, ImageClickEventArgs e) 位置 f:\中达货站后台管理系统之新版\最后一次\中达客站客户管理系统\Administrator\DataManager.aspx.cs:行号 216
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

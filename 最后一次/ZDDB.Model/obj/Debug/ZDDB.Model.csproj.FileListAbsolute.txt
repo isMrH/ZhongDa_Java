@@ -1,0 +1,100 @@
+C:\Documents and Settings\Administrator\桌面\中达货站材料综合\新\中达货站结算管理\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站材料综合\新\中达货站结算管理\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\中达货站材料综合\新\中达货站结算管理\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\中达货站材料综合\新\中达货站结算管理\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站材料综合\新\中达货站结算管理\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.7\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.7\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET\上机\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.7\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.7\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.7\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.8\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.8\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET\上机\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.8\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.8\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.8\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.10\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.10\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.10\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.10\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\ASP.NET\上机\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET\上机\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\ASP.NET\上机\实训\中达货站结算管理1.10\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+G:\Asp.net\实训\任务\中达货站结算管理1.11\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+G:\Asp.net\实训\任务\中达货站结算管理1.11\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+G:\Asp.net\实训\任务\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\Asp.net\实训\任务\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+G:\Asp.net\实训\任务\中达货站结算管理1.11\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11.傍晚\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11.傍晚\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11.傍晚\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11.傍晚\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\中达货站结算管理1.11.傍晚\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+H:\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+H:\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+H:\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+H:\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+H:\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\ASP.NET\中达货站客户管理系统1.14\中达货站结算管理系统终结版\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Users\Administrator\Desktop\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Users\Administrator\Desktop\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\40李兰兰\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\40李兰兰\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+F:\40李兰兰3.11版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+F:\40李兰兰3.11版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+F:\40李兰兰3.11版\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\40李兰兰3.11版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+F:\40李兰兰3.11版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+G:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+G:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+G:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+G:\Asp.net\ASP.NET\最新版本\40李兰兰3.11下午版版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\黄超终结版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\黄超终结版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\新建文件夹\黄超终结版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\新建文件夹\黄超终结版\最后一次\ZDDB.Model\bin\Debug\ZDDB.Model.pdb
+C:\Documents and Settings\Administrator\桌面\新建文件夹\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\新建文件夹\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.dll
+C:\Documents and Settings\Administrator\桌面\新建文件夹\黄超终结版\最后一次\ZDDB.Model\obj\Debug\ZDDB.Model.pdb

@@ -1,0 +1,17 @@
+用户IP:127.0.0.1
+发生时间:2013-4-28 18:25:22
+发生异常页: http://localhost:5424/MyRestHomeUI/Login.aspx
+异常信息: 无法打开登录所请求的数据库 "resthomedb"。登录失败。
+用户 'sa' 登录失败。
+错误源:.Net SqlClient Data Provider
+堆栈信息:   在 MyRestHomeDAL.BookInfoService.GetBookInfoBySql(String sql, SqlParameter[] values) 位置 F:\王艳鹏\new2013.3.19\MyRestHomeDAL\BookInfoService.cs:行号 143
+   在 MyRestHomeDAL.BookInfoService.GetCountByTime(DateTime time) 位置 F:\王艳鹏\new2013.3.19\MyRestHomeDAL\BookInfoService.cs:行号 521
+   在 MyRestHomeBLL.BookInfoManager.GetCountByTime(DateTime time) 位置 F:\王艳鹏\new2013.3.19\MyRestHomeBLL\BookInfoManager.cs:行号 114
+   在 Login.ibtnLogin_Click1(Object sender, ImageClickEventArgs e) 位置 f:\王艳鹏\new2013.3.19\MyRestHomeUI\Login.aspx.cs:行号 32
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

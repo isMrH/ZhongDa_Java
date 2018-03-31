@@ -1,0 +1,67 @@
+/* CSS Document */
+
+/* ListPrice的样式 */
+
+ *{padding:0px; 	
+   margin:0px auto;
+
+}
+ #header {width:649px;height:30px;line-height:30px;background-color:#f7f7f7;border:solid 1px #d0dede;padding-left:5px;font-size:14px;}
+ #Seach{	width:753px;	
+height:80px;	}
+ .detail {	text-align:center;	width:746px;
+}
+ #function{ width:738px;
+height:30px;list-style:none; font-size:13px;
+}
+ .public {width:93px;
+float:right;height:20px;margin-left:20px;margin-top:2px;
+}
+  #main {width:740px;
+height:241px; 
+text-align:center; margin-top:5px;
+}
+  /* Register的样式 */
+  #AddoNumber{ width:500px; height:213px; 
+margin-top:10px;color:#3f3f3f;
+}
+  #AddoNumber{ background-color:White; font-size:12px;width:730px;
+height:331px;
+}
+  #top{width:150px; height:25px; font-size:14px; line-height:23px; margin-left:300px; margin-top:9px; }
+  /* GvRegister的样式 */
+  #SearchAllR{width:755px;
+height:70px; 
+ font-size:13px; 
+}
+  #seachAllcompany{width:649px;height:25px;}
+   #GvRegister{width:740px;height:199px; 
+text-align:center;
+}
+   
+ /* GVDelGoodsMon的样式 */
+ #customer{width:790px;height:60px; font-size:13px;}
+     #send{width:753px;
+height:260px; 
+text-align:center; margin-top:5px;
+}
+ 
+/* customersend的样式 */  
+
+#customer{width:757px;
+height:54px; 
+font-size:13px;
+}
+tr{ background-color:White; font-size:12px;}
+  #AddoNumber,tr{ background-color:White; font-size:12px;}
+  
+  #DelGoodsMon
+  {
+  	width:790px;
+  	height:300px;
+  	text-align:center;
+  	}
+#ti
+{
+	margin-left:150px;
+}

@@ -1,0 +1,38 @@
+用户IP:127.0.0.1
+发生时间:2016/3/16 18:59:00
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\作业\中达货站\40李兰兰3.15版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 144
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------
+用户IP:127.0.0.1
+发生时间:2016/3/16 18:59:29
+发生异常页: http://localhost:4799/中达客站客户管理系统/FootTable/FootInfo.aspx
+异常信息: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+错误源:mscorlib
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZDDB.DAL.DisNoteService.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.DAL\DisNoteService.cs:行号 236
+   在 ZDDB.BLL.DisNoteManager.GetDisNoteTBById(Int32 cid, DateTime qtime, DateTime ttime) 位置 C:\Users\Administrator\Desktop\李兰兰3.14版\最后一次\ZDDB.BLL\DisNoteManager.cs:行号 54
+   在 FootTable_FootInfo.imgbtnselect_Click(Object sender, ImageClickEventArgs e) 位置 c:\Users\Administrator\Desktop\作业\中达货站\40李兰兰3.15版\最后一次\中达客站客户管理系统\FootTable\FootInfo.aspx.cs:行号 144
+   在 System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   在 System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+-----------------------

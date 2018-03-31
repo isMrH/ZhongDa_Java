@@ -1,0 +1,87 @@
+*
+{
+   margin:0px auto;	
+   padding:0px;
+}
+.title
+{
+	margin-top:5px;
+	height:23px;
+	width:760px;
+	background-color:#f7f7f7;
+	border:1px solid #e0dede;
+	font-size:14px;
+	padding-top:5px;
+	padding-left:4px;
+}
+.Search
+{
+    width:728px;
+    height:20px;
+    margin-top:10px;
+    font-size:14px;
+}
+#Label1
+{
+	padding-left:5px;
+	padding-top:0px;
+}
+.condtion
+{
+	width:743px;
+	font-size:14px;
+    margin-top :10px
+}
+.Setup
+{
+	width:740px;
+	height:25px;
+	font-size:13px;
+}
+#imgExecl
+{
+	padding-left:22px;
+	padding-top:8px;
+}
+#lkbtnExecl
+{
+	padding-left:2px;
+
+}
+.content
+{
+	padding-top:10px;
+	width:750px;
+	text-align:center;
+	font-size:13px;
+	height: 274px;
+}
+#lblName
+{
+	margin-left:67px;
+}
+#lblCompany
+{
+	margin-left:15px;
+}
+.lkbtnSelect
+{
+	margin-left:10px;
+}
+#lblPno
+{
+	margin-left:75px;
+}
+#txtpno
+{
+	margin-left:11px;
+}
+#lblDes
+{
+	margin-left:15px;
+}
+#txtDes
+{
+	margin-left:14px;
+}
+	
